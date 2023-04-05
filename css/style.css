@@ -1,0 +1,58 @@
+header{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+strong{
+    font-size: 48px;
+    text-align: center;
+    color: #1b8f4f;
+}
+.mainbox{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+.box1{
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.box1 h6{
+    font-size: 24px;
+    margin: 0;
+    color: #dd4e2e;
+    padding: 0 15px;
+}
+.box1 h1{
+    color: #00c77d;
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 30px;
+}
+.box1 p{
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.box2{
+    width: 50%;
+}
+.box2 .image_box{}
+.image_box img{
+    min-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    height: 500px;
+}
+
+
+.xxx{
+    padding: 0;
+    padding-left: 100px;
+}
